@@ -40,7 +40,7 @@ This is because the dependencies from `govuk-monorepo-example/packages/govuk-mon
 
 Note that Webpack sass-loader [provides a mechanism to load dependencies from node_modules](https://github.com/webpack-contrib/sass-loader#imports):
 
-```js
+```scss
 @import "~sass-mq/mq";
 ```
 
