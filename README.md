@@ -40,10 +40,10 @@ Module build failed:
 
 This is because the dependencies from `govuk-monorepo-example/packages/govuk-monorepo-example-package/node_modules` are hoisted up to `govuk-monorepo-example/node_modules` so the path in `@govuk-frontend/globals/helpers/_media-queries.scss` can not be resolved.
 
-Note that Webpack sass-loader [provides a mechanism to load dependencies from node_modules](https://github.com/webpack-contrib/sass-loader#imports):
+Note that Webpack sass-loader [provides a mechanism to load dependencies from node_modules](https://github.com/webpack-contrib/sass-loader#imports) that should fix this issue:
 
 ```scss
 @import "~sass-mq/mq";
 ```
 
-However this doesn't seem to be a standard Sass convention, but personally I think it is preferred to importing from an assumed relative path to node_modules.
+This doesn't seem to be a standard Sass convention, as far as I can tell, but I think it is preferred to importing from an assumed relative path to node_modules.
