@@ -2,7 +2,7 @@
 
 Example of a failing build for `govuk-frontend` Sass, when used in a monorepo structure.
 
-## Working Example (not monorepo)
+## Working example (not monorepo)
 
 You can do a normal, non monorepo build as follows:
 
