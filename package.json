@@ -1,0 +1,19 @@
+{
+  "name": "govuk-monorepo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/govuk-monorepo-example.git"
+  },
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penx/govuk-monorepo-example/issues"
+  },
+  "homepage": "https://github.com/penx/govuk-monorepo-example#readme",
+  "description": ""
+}
