@@ -1,0 +1,15 @@
+{
+  "name": "govuk-monorepo-example-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass example.scss example.css"
+  },
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@govuk-frontend/back-link": "0.0.26-alpha",
+    "node-sass": "^4.8.3"
+  }
+}
