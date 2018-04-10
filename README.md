@@ -1,4 +1,6 @@
-# Example of failing build for govuk-frontend Sass when used in monorepo
+# Example govuk-frontend monorepo
+
+Example of a failing build for `govuk-frontend` Sass, when used in a monorepo structure.
 
 ## Working Example (not monorepo)
 
